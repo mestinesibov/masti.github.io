@@ -1,0 +1,219 @@
+#page{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
+.backfirst{
+    color: rgb(41, 41, 41);
+    padding-top: 157.5px;
+    padding-bottom: 157.5px;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.grid img{
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.align-center{
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+img.align-center{
+    margin: 0 auto;
+}
+.yazi h2{
+    margin-top: .6em;
+    margin-bottom: .6em;
+    font: normal 60px/68px 'Libre Baskerville';
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #f5f5f5;
+    font-size: 2rem;
+}
+.yazi{
+    width: 100%;
+    margin: auto;
+}
+.asagi_ox img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.ox{
+    margin: 0 auto;
+}
+.star1{
+   width: 100%;
+   padding-top: 0.05px;
+   padding-bottom: 0.05px;
+   position: relative;
+   float: left;
+   box-sizing: border-box;
+   display: block;
+   padding: 0 25px;
+}
+.ulduz1{
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 25px;
+    font-size: 50px;
+}
+.metn{
+    padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    
+}
+h4{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: .6em;
+    margin-bottom: .6em;
+    color: #2c2c2c;
+}
+.star2{
+    width: 100%;
+    padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 25px;
+}
+.ulduz2{
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 25px;
+    font-size: 50px;
+}
+img.ornamenttop1{
+    color: #F5F3F0;
+}
+.il_1{
+    text-align: center;
+    color:#cb7152 !important;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 30px;
+}
+.birinci{
+    text-align: center;
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+}
+.il_2{
+    text-align: center;
+    color:#cb7152 !important;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 30px;
+}
+.ikinci{
+    text-align: center;
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+}
+.il_3{
+    text-align: center;
+    color:#cb7152 !important;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 30px;
+}
+.ucuncu{
+    text-align: center;
+    color: #333;
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 15px;
+}
+.chef{
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 56px;
+    font-family:'Libre Baskerville', serif ;
+}
+.our_chef{
+    color: #cb7152!important;
+    text-align: center;
+}
+.metn_2{
+    text-align: center;
+    color: #f4f4f4;
+    font-family: 'Varela Round', sans-serif ;
+    padding: 20px;
+    font-size: 16px;
+}
+.imza{
+    text-align: center;
+}
+/* .carousel{
+    margin-bottom: 6em;
+    color: #000;
+    font-family:'Libre Baskerville', serif ;
+    margin-top: 6em;
+    text-align: center;
+} */
+.basliq{
+    text-align: center;
+    margin-top: .6em;
+    margin-bottom: .6em;
+    color: #000;
+    font-family:'Libre Baskerville', serif ;
+}
+.metn_3{
+    color: #2c2c2c;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif ;
+    font-size: 15px;
+}
+.logo{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+.ornamenttop3{
+    background:#22272d;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.ystar{
+    color: #F8DF04;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+
+}
+.item{
+    flex-direction: column;
+}
+
+ .seconddiv{
+     display: flex;
+     justify-content: center;
+     font-size: 10px;
+}
+/* .owl-carousel.owl-theme{
+    
+} */
+ 

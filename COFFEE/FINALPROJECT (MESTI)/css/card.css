@@ -1,0 +1,101 @@
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  
+  .hovereffect:hover img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    /* filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter'); */
+    
+  }
+  .card{
+      border-radius: 7px;
+  }
+  .card-btn{
+      float: left;
+  }
+  .card-b{
+      border: 1px solid lightgray ;
+      padding: 7px 9px;
+      border-radius: 50px;
+      font-size:11px;
+      text-decoration: none;
+      color: #000;
+
+  }
+  .card-b:hover{
+      text-decoration: none;
+      background-color:#cb7152;
+      color: #fff;
+  }
+  .h{
+      margin-top: 40px;
+      
+
+  }
+  .h a{
+    color: #2a2a2a;
+    text-align: start;
+    font-size: 24px;
+  }
+  .h a:hover{
+      text-decoration: none;
+      color: #cb7152;
+  }
+  .card-body{
+      padding: 40px;
+  }
+  .card-body p{
+      font-size: 16px;
+      color: #2a2a2a;
+      text-align: start;
+      margin-top: 15px;
+      margin-left: 10px;
+  }
+  .tags{
+      margin-top: 30px;
+  }
+  .tags a,span{
+    font-size: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  .tags a:hover{
+      color: #cb7152;
+  }
+  .add{
+      border-top: 1px solid lightgray;
+      margin-top: 20px;
+  }
+  .add a{
+      color: #000;
+      font-size: 13px;
+      margin-right: 6px;
+  }
+  .add a:hover{
+      color: #cb7152;
+      text-decoration: none;
+  }
+  .events{
+      background-color: #F6F6F6;
+      padding-top: 60px;
+        padding-bottom: 20px;
+  }

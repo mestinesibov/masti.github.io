@@ -1,0 +1,346 @@
+.photo{
+    background-image: url("https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/photo-coffee-6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 410px;
+    width: 100%;
+}
+.title_center{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    text-align: center;
+    padding: 170px;    
+}
+.title_center h1{
+    margin: 0;
+    font-size: 54px;
+    line-height: 1.4em; 
+    font: normal 74px/82px 'Libre Baskerville';
+}
+.text-shadow{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header-line{
+    display: block;
+    width: 120px;
+    height: 3px;
+    border-radius: 30px;
+    background: #cb7152;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.desc{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    font-family: 'varela round';
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    padding: 0 12%;
+    font: normal 18px/22px 'Libre Baskerville';
+}
+.contacts{
+    padding-top: 0.05px;
+    padding-bottom: 0.05px;
+}
+h3{
+    margin-top: .6em;
+    margin-bottom: .6em;
+    font: normal 40px/50px 'Libre Baskerville';
+    color: #272727;
+}
+h5{
+    margin-top: .6em;
+    margin-bottom: .6em;
+    font: normal 18px/22px 'Libre Baskerville';
+    color: #272727;
+}
+p{
+    margin: 1em 0;
+    font: normal 16px/24px 'Varela Round';
+    color: #272727;
+}
+
+.make-res{
+    border: none;
+    padding: 15px 15px 35px;
+}
+.book-write{
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 0.05px;
+    min-height: 658px;
+    border-radius: 20px;
+    z-index: 10;
+    position: relative;
+    margin-top: -54px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.times{
+    padding-top: 0.05px;
+    padding-bottom: 0.05px;
+}
+.icon{
+    padding: .3em;
+    border-radius: 20em;
+    line-height: 1em;
+    font-weight: 400!important;
+    font-style: normal!important;
+    display: inline-block;
+    min-width: 1em;
+    -webkit-font-smoothing: antialiased;
+}
+.icon :hover{
+    color: #cb7152 ;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    transition: color .3s;
+    background-color: transparent;
+}
+.o-top{
+    display: flex;
+    justify-content: center;
+    margin-top: -55px;
+    margin-left: 250px;
+}
+.title-text{
+    border-color: #cb7152;
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    padding-left: 50px;
+}
+.bw{
+    display: flex;
+}
+.setir1{
+    padding-left: 223px;
+    padding-top: 74px;
+    font-size: 20px;
+}
+.setir2{
+    padding-top: 74px;
+    padding-left: 38px;
+    font-size: 20px;
+}
+.setir1 :hover{
+    color: #cb7152;
+    text-decoration: none;
+    
+}
+.setir2 :hover{
+    color: #cb7152;
+    text-decoration: none;
+}
+.inmiddle{
+    padding-top: 0.05px;
+    padding-bottom: 0.05px;
+    width: 100%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    padding: 0 25px;
+}
+.make-res h2{
+    padding-bottom: 0;
+    line-height: 1.6em;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Libre Baskerville';
+}
+.subtitle{
+    padding-bottom: 30px;
+    font-family: 'varela round';
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.5;
+}
+.seld{
+    border: 1px solid #d0d0d0;
+    padding-left: 20px;
+    height: 50px;
+    max-width: 140px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 15px;
+    margin-bottom: 0;
+    color: #000!important;
+    text-align: center;
+ 
+}
+.date span{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    display: block;
+    padding-bottom: 11px;
+    margin: 0;
+
+}
+.date{
+    line-height: 1.5px;
+    padding-bottom: 10px;
+}
+.datetime p{
+    margin: 0 5px;
+    display: inline-block;
+    width: auto;
+    padding: 0;
+}
+.divider{
+    border: 1px #3d3d3d;
+    opacity: .2;
+    margin: 0 0 20px;
+    padding: 0;
+}
+::placeholder{
+    color: black;
+    font-family: inherit;
+}
+.datetime{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.time span{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    display: block;
+    padding-bottom: 11px;
+    margin: 0;
+}
+.seltim{
+    border: 1px solid #d0d0d0;
+    padding-left: 20px;
+    height: 50px;
+    max-width: 140px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 15px;
+    margin-bottom: 0;
+    color: #000!important;
+    text-align: center;
+    background-color: #fff;
+  
+}
+.time{
+    line-height: 1.5px;
+    padding-bottom: 10px;
+}
+.size{
+    line-height: 1.5px;
+    padding-bottom: 10px;
+}
+.size span{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    display: block;
+    padding-bottom: 11px;
+    margin: 0;
+}
+.val{
+    border: 1px solid #d0d0d0;
+    padding-left: 20px;
+    height: 50px;
+    max-width: 140px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 15px;
+    margin-bottom: 0;
+    color: #000!important;
+    text-align: center;
+    background-color: #fff;
+    width: 70px;
+
+}
+.form-sec-2{
+    text-align: center;
+}
+.form-sec-2 p{
+    margin: 0px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.name{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    display: block;
+    padding: 5px 0;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.resinput{
+    background-color: #fff;
+    border-color: #ccc;
+    border: 1px solid #d0d0d0;
+    font-size: 14px;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 0;
+    color: #000!important;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 4px;
+    text-align: left;
+}
+.email{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    display: block;
+    padding: 5px 0;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.res-submit{
+    background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    vertical-align: middle;
+    user-select: none;
+    text-decoration: none;
+    text-align: center !important;
+    border-radius: 10em;
+    font: normal 13px/1em "Varela Round";
+    padding: 1em 2em;
+    background: 0 0;
+    border: solid 1px #cb7152;
+    color: #000!important;
+    margin-top: 25px;
+}
+.res-submit :hover{
+    background-color: black;
+    color: white;
+}

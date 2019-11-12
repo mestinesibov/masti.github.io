@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/card.css">
+  <script src="https://kit.fontawesome.com/a3e41312f0.js" crossorigin="anonymous"></script>
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid fs">
+    <!-- header  -->
+    <header style="z-index: 4;">
+
+      <!-- general navbar -->
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="col-lg-3 col-md-11 col-sm-11 col-xs-10 logo">
+            <a class="navbar-brand ss" href="#">Délicious</a>
+            <a class="huma" onclick=toggleMenu()  class="hum"><i class="fas fa-bars "></i></a> 
+          </div>
+
+          <div class="col-lg-6 col-md-8 navbar-expand-md" id="navbarNav"  >
+            <ul class="navbar-nav"  >
+              <li class="nav-item relative">
+                <a class="nav-link" href="#">Homes</a>
+                <ul class="absolute">
+                  <li><a class="a" href="#">Gourmet</a></li>
+                  <li><a class="a" href="#">Coffee</a></li>
+                  <li><a class="a" href="#">Sushi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item relative">
+                <a class="nav-link" href="../FINALPROJECT(GULNAR)/about_page.html">About</a>
+                <ul class="absolute">
+                  <li><a class="a" href="#">People</a></li>
+                  <li><a class="a" href="#">Guestbook</a></li>
+                  <li><a class="a" href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item relative">
+                <a class="nav-link" href="../FINALPROJECT(ADIL)/menu_page.html">Menu</a>
+                <ul class="absolute">
+                  <li><a class="a" href="#">Expressive</a></li>
+                  <li><a class="a" href="#">Handsome</a></li>
+                  <li><a class="a" href="#">Classic</a></li>
+                  <li><a class="a" href="#">Gallery</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Restaurant</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item relative">
+                <a class="nav-link" href="#">Blog</a>
+                <ul class="absolute">
+                  <li><a class="a" href="#">Healthy Food</a></li>
+                  <li><a class="a" href="#">Recipes</a></li>
+                  <li><a class="a" href="#">Cooking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item relative">
+                <a class="nav-link" href="#">Features</a>
+                <ul class="absolute">
+                  <li><a class="a" href="#">Why Buy?</a></li>
+                  <li><a class="a" href="#">Theme Options</a></li>
+                  <li><a class="a" href="#">Coming Soon</a></li>
+                  <li><a class="a" href="#">Icons</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../FINALPROJECT(GULNAR)/contact_page.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-1 col-sm-1 col-xs-2 extentions">
+             
+            <a class="e" href="#"><img style="width:25px;" src="assets/shopping-bag(1).svg" alt=""></a>
+            <a class="e" href="#"><img style="width: 20px;" src="assets/search(1).svg" alt=""></a>
+          </div>
+        </nav>
+        <!-- general navbar -->
+
+
+
+        <sub>
+          <h1>Coffee</h1>
+          <h1>Matters</h1>
+          <span>-Since 1987-</span>
+        </sub>
+      </div>
+    </header>
+    <!-- header -->
+
+
+
+
+
+
+    <!-- second section  -->
+    <div class="second row">
+
+      <div class="col-md-4 gilas"
+        style="background:url('https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-img-2.jpg') no-repeat center top;">
+        <div class="tools">
+          <h4>Tools</h4>
+          <p>“Professional chefs rely on a batteryof tools and equipment. Chefs must be conscious of their kitchen tools
+            when planning a menu and understand their use and production capacity.”</p>
+        </div>
+      </div>
+
+      <div class="col-md-4"
+        style="background-image: url('https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-img-4-1.jpg'); z-index: 3; height: 600px; background-position: 50%;background-attachment: scroll; ">
+        <img class="fincan" src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-img-1.png" alt="">
+        <div class="welcome">
+          <h3>Welcome</h3>
+          <p>“First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or
+            for the past 15 years in front of the camera on my Food Network cooking shows. Creating new dishes and
+            flavor combinations that bring cooks and our restaurant guests pleasure is my job and I love it.”</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 waffle"
+        style="background: url( 'https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-img-3.jpg' ) no-repeat center top;">
+        <div class="tools">
+          <h4>Food</h4>
+          <p>“Creating new dishes and flavor combinations that bring cooks and our restaurant guests pleasure is my job
+            and I love it.”</p>
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- second section  -->
+
+
+
+    <!-- third section  -->
+
+    <div class="third row">
+
+      <div class="col-md-6">
+        <div class="row section-sekil">
+
+          <div class="col-md-4 third-piroq"
+            style="background: url('https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-photo-1.jpg') no-repeat scroll left center;">
+          </div>
+          <div class="col-md-8 brunchborder">
+            <div class="brunch">
+              <img src="assets/croissant.png" alt="">
+              <h3>Brunch</h3>
+              <span class="special">~Today Special~</span>
+              <div class="food">
+                <div class="row">
+                  <h4 class="col-md-9 foodd">
+                    <a href="#">
+                      Cashew Chicken With Stir-Fry Vegetables & Green Salad
+                    </a>
+                  </h4>
+                  <div class="col-md-3">
+                    <span class="price">$22</span>
+                  </div>
+                </div>
+              </div>
+              <p class="description">
+                Cashew Chicken With Stir-Fry Vegetables served with green salad, sprouts and stewed mushrooms.
+              </p>
+              <div class="food">
+                <div class="row">
+                  <h4 class="col-md-9 foodd">
+                    <a href="#">
+                      Optic Big Breakfast Combo Menu
+                    </a>
+                  </h4>
+                  <div class="col-md-3">
+                    <span class="price">$20</span>
+                  </div>
+                </div>
+              </div>
+              <div class="food">
+                <div class="row">
+                  <h4 class="col-md-9 foodd">
+                    <a href="#">
+                      Coffee and Pain au chocolat (Chocolate croissant) Combo Menu
+                    </a>
+                  </h4>
+                  <div class="col-md-3">
+                    <span class="price">$11</span>
+                  </div>
+                </div>
+              </div>
+              <p class="description">
+                Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark
+                chocolate, make for ...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-8 taza-section">
+            <div class="brunch">
+              <img class="sekil-o" src="assets/taza-de-te-caliente.png" alt="">
+              <div class="happyhour">
+                <h3>Happy Hour</h3>
+                <span class="special">~Starts at 3pm~</span>
+                <p>
+                  The restaurant will open at 3pm for happy hour and dinner service starting at 5pm. We will continue to
+                  offer brunch on weekends from 10am-3pm with bottomless mimosas. We will also continue with our late
+                  night lounge on Friday and Saturdays until 2am.
+                </p>
+                <h3>
+                  +359 562 958
+                </h3>
+                <span>
+                  30 minute guarantee!
+                </span>
+                <aside>
+                  <a class="button" href="#">Book a table!</a>
+                </aside>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 third-piroq"
+            style="background: url('https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-photo-2.jpg') no-repeat scroll center;">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- third section  -->
+
+
+
+    <!-- forth section  -->
+
+    <div class="row offer"
+      style="background-image: url('https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-img-5.jpg'); background-size: auto; height: 400px; background-attachment: scroll;background-position: 50% 50%;">
+      <p class="we-offer"><i class="xett"></i> We offer <i class="xett"></i></p>
+      <span>~Today Specials~</span>
+
+    </div>
+
+    <div class="row specials">
+      <div class="fr col "><a href="#"><img
+            src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-thumb-1.jpg" alt="">
+          <h4>Coffe & Tea</h4>
+        </a>
+        <p>Its delicious smooth blend and various varieties seductively charm you at the start of your day.</p>
+      </div>
+      <div class="col"><a href="#"><img
+            src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-thumb-3.jpg" alt="">
+          <h4>Bakery & Sweats</h4>
+        </a>
+        <p>These desserts aren’t simply favorites of ours; they also help define, in their own way…</p>
+      </div>
+      <div class="col"><a href="#"><img
+            src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-thumb-4.jpg" alt="">
+          <h4>Lunch Menu</h4>
+        </a>
+        <p>We make our lunches and dinners with the finest ingredients we can find to make our meals as flavorful as
+          possible.</p>
+      </div>
+      <div class="col"><a href="#"><img
+            src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-thumb-5.jpg" alt="">
+          <h4>Work Spots</h4>
+        </a>
+        <p>Coffice in Stockholm is a great place to work from. Food options beyond pastries. Free WiFi.</p>
+      </div>
+      <div class="col"><a href="#"><img
+            src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-thumb-6.jpg" alt="">
+          <h4>Child Friendly</h4>
+        </a>
+        <p>Based in Barcelona, Pudding Bar was designed for spending the afternoon with the kids.</p>
+      </div>
+    </div>
+
+
+    <!-- forth section  -->
+
+
+    <!-- fifth section  -->
+    <div class="fifth"
+      style='background-position: 50% 50%; background-image: url("https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-photo-3.jpg"); background-color: rgb(59, 59, 59); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; height: 550px;'>
+      <div class="fiqur" style="
+    background: url( 'https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/waves-decoration.svg' ) repeat-x center top;
+    background-size: auto;
+  background-attachment: scroll;padding-top:200px;padding-bottom:200px;"></div>
+
+      <div class="offer tea">
+          <p class="we-offer"><i class="xett"></i>Tea <i class="xett"></i></p>
+        <span>~Today Specials~</span>
+      </div>
+    </div>
+    <!-- fifth section  -->
+
+
+    <!-- sixth section  -->
+
+    <div class="row six-row">
+
+      <div class="col-md-3">
+        <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/06/coffee-photo-4.jpg" alt="">
+      </div>
+      <div class="col-md-6 buddha">
+        <img src="assets/taza-de-te-caliente.png" alt="">
+        <h2>Buddha:</h2>
+        <h3>How to drink tea?</h3>
+        <p>The types of tea are white tea, green tea, yellow tea, oolong tea, black tea, and pu-erh tea. “When you have
+          the title ‘white tea’ or ‘green tea’, you’re actually describing the process by which it has been made,”
+          Woollard says.</p>
+      </div>
+      <div class="col-md-3 card-col">
+        <div class="card" style="width: 90%;">
+          <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2014/08/tea-2-300x233.jpg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+
+      </div>
+
+
+      </div>
+
+    </div>
+    <div class="row section-son">
+
+      <div class="container">
+        <div class="row section-son">
+          <div class="col-md-12 ">
+            <img class="section-66" src="assets/coffee-photo-5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- sixth section  -->
+
+
+
+
+
+
+    <!-- 7ci yazilmayib -->
+
+
+    <!-- 7ci yazilmayib -->
+
+
+
+
+
+
+    <!-- eigth section  -->
+
+    <div class="row section-son">
+      <div class="col-md-12 offer">
+          <p class="we-offer"><i class="xett"></i>Menu <i class="xett"></i></p>
+        <span>~Today Specials~</span>
+      </div>
+    </div>
+    <div class="row break-row">
+      <div class="col-md-4">
+        <div class="brunch">
+          <div class="food">
+            <div class="row">
+              <h5 class="name">Breakfast</h5>
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Cashew Chicken With Stir-Fry Vegetables & Green Salad
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$22</span>
+              </div>
+            </div>
+          </div>
+          <p class="description">
+            Cashew Chicken With Stir-Fry Vegetables served with green salad, sprouts and stewed mushrooms.
+          </p>
+          <div class="food">
+            <div class="row">
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Optic Big Breakfast Combo Menu
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="food">
+            <div class="row">
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Coffee and Pain au chocolat (Chocolate croissant) Combo Menu
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$11</span>
+              </div>
+            </div>
+          </div>
+          <p class="description">
+            Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark
+            chocolate, make for ...
+          </p>
+
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="brunch">
+          <div class="food">
+            <div class="row">
+              <h5 class="name">Breakfast</h5>
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Cashew Chicken With Stir-Fry Vegetables & Green Salad
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$22</span>
+              </div>
+            </div>
+          </div>
+          <p class="description">
+            Cashew Chicken With Stir-Fry Vegetables served with green salad, sprouts and stewed mushrooms.
+          </p>
+          <div class="food">
+            <div class="row">
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Optic Big Breakfast Combo Menu
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="food">
+            <div class="row">
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Coffee and Pain au chocolat (Chocolate croissant) Combo Menu
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$11</span>
+              </div>
+            </div>
+          </div>
+          <p class="description">
+            Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark
+            chocolate, make for ...
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="brunch">
+          <div class="food">
+            <div class="row">
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Cashew Chicken With Stir-Fry Vegetables & Green Salad
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$22</span>
+              </div>
+            </div>
+          </div>
+          <p class="description">
+            Cashew Chicken With Stir-Fry Vegetables served with green salad, sprouts and stewed mushrooms.
+          </p>
+          <div class="food">
+            <div class="row">
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Optic Big Breakfast Combo Menu
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$20</span>
+              </div>
+            </div>
+          </div>
+          <div class="food">
+            <div class="row">
+              <h4 class="col-md-9 foodd">
+                <a href="#">
+                  Coffee and Pain au chocolat (Chocolate croissant) Combo Menu
+                </a>
+              </h4>
+              <div class="col-md-3">
+                <span class="price">$11</span>
+              </div>
+            </div>
+          </div>
+          <p class="description">
+            Hot coffee in the company of Beautiful homemade croissants, each containing a bar of high-quality dark
+            chocolate, make for ...
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- eigth section  -->
+
+
+
+    <!-- ninth section  -->
+
+
+    <!-- <div id="map"></div> -->
+
+    <div class="row setion-9">
+      <div id="pano"></div>
+    </div>
+
+    <div class="row sectin-adress">
+
+      <div class="col-md-5 otimes">
+        <div class="times">
+          <h3>Opening Times</h3>
+        </div>
+        <div class="dashed">
+          <span>Week days</span>
+          <span>9.00 - 18:00</span>
+        </div>
+        <div class="dashed">
+          <span>Saturday</span>
+          <span>10.00 - 17:00</span>
+        </div>
+        <div class="dashed">
+          <span>Sunday</span>
+          <span>Closed</span>
+        </div>
+      </div>
+      <div class="col-md-2 orta">
+         <center> <i class="fas fa-globe-asia map"></i>
+        <h4 class="map-h4">Directions</h4>
+        <p class="map-p" >London, UK <br>
+            10, Firs Avenue, Muswell <br> Hill</p>
+            <button class="map-button">View on map</button>
+        </center>
+      </div>
+      <div class="col-md-5 sag">
+        <div class="sagolcu">
+          <h3>Get in touch</h3>
+          <h3>+359 562 958</h3>
+          <a href="#">hello@yoursite.com</a>
+          <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ninth section  -->
+
+
+
+    <!-- tenth section  -->
+
+    <div class="row news">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 offer">
+              <p class="we-offere"><i class="xett"></i>News & Events <i class="xett"></i></p>
+            
+            <span>~Today Specials~</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row events">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+
+            <div class="card hovereffect">
+              <div class="hovereffect">
+                <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/08/Meat-1-400x268.jpg"
+                  class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="card-btn">
+                    <a class="card-b" href="#">RECIPES</a>
+                    <a class="card-b" href="#">TIPS & TRICKS</a>
+                  </div>
+                </div>
+
+                <div class="row h">
+                  <a href="#">
+                    <h2>Which Lamb is the Best: American, Australian or New Zealand?</h2>
+                  </a>
+                </div>
+                <div class="row">
+                  <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                </div>
+
+                <div class="row tags">
+                  <a href="#">BIO</a>
+                  <span>,</span>
+                  <a href="#">DINNER</a>
+                  <span>,</span>
+                  <a href="#">FOOD</a>
+                  <span>,</span>
+                  <a href="#">HAND MADE</a>
+                  <span>,</span>
+                  <a href="#">LAMB</a>
+
+                </div>
+                <div class="row add">
+                  <a href="#">JON MADISON</a>
+                  <a href="#">27 SEP, 2014</a>
+                  <a class="comment" href="#"><i class="far fa-comment"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card hovereffect">
+              <div class="hovereffect">
+                <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/08/Cocktails-2-400x268.jpg"
+                  class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="card-btn">
+                    <a class="card-b" href="#">RECIPES</a>
+                    <a class="card-b" href="#">TIPS & TRICKS</a>
+                  </div>
+                </div>
+
+                <div class="row h">
+                  <a href="#">
+                    <h2>Which Lamb is the Best: American, Australian or New Zealand?</h2>
+                  </a>
+                </div>
+                <div class="row">
+                  <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                </div>
+
+                <div class="row tags">
+                  <a href="#">BIO</a>
+                  <span>,</span>
+                  <a href="#">DINNER</a>
+                  <span>,</span>
+                  <a href="#">FOOD</a>
+                  <span>,</span>
+                  <a href="#">HAND MADE</a>
+                  <span>,</span>
+                  <a href="#">LAMB</a>
+
+                </div>
+                <div class="row add">
+                  <a href="#">JON MADISON</a>
+                  <a href="#">27 SEP, 2014</a>
+                  <a class="comment" href="#"><i class="far fa-comment"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card hovereffect">
+              <div class="hovereffect">
+                <img src="https://vip-restaurant.vamtam.com/wp-content/uploads/2016/08/Sandwiches-1-400x268.jpg"
+                  class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="card-btn">
+                    <a class="card-b" href="#">RECIPES</a>
+                    <a class="card-b" href="#">TIPS & TRICKS</a>
+                  </div>
+                </div>
+
+                <div class="row h">
+                  <a href="#">
+                    <h2>Which Lamb is the Best: American, Australian or New Zealand?</h2>
+                  </a>
+                </div>
+                <div class="row">
+                  <p>Lamb is a very subjective item. Many people feel that New Zealand or Australian is…</p>
+                </div>
+
+                <div class="row tags">
+                  <a href="#">BIO</a>
+                  <span>,</span>
+                  <a href="#">DINNER</a>
+                  <span>,</span>
+                  <a href="#">FOOD</a>
+                  <span>,</span>
+                  <a href="#">HAND MADE</a>
+                  <span>,</span>
+                  <a href="#">LAMB</a>
+
+                </div>
+                <div class="row add">
+                  <a href="#">JON MADISON</a>
+                  <a href="#">27 SEP, 2014</a>
+                  <a class="comment" href="#"><i class="far fa-comment"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row more">
+      <a href="#">LOAD MORE</a>
+    </div>
+
+    <!-- tenth section  -->
+
+
+    <!-- footer  -->
+    <footer class="footer">
+
+      <div class="row section-son ">
+        <div class="container">
+          <div class="row section-son">
+            <div class="col-md-12">
+              <h2 class="delicious">Délicious</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row section-son">
+        <div class="container">
+          <div class="row footer-h4">
+            <div class="col-md-4 ">
+              <h2 class="footer-text">About</h2>
+              <p class="footer-p">Osteria Francescana is a restaurant owned and run by chef Massimo Bottura in Modena, Italy</p>
+              <center><button class="footer-button">Buy this Delicious Theme</button></center>
+            </div>
+            <div class="col-md-4 ">
+              <h2 class="footer-text">Get news & offers</h2>
+              <center> <input class="footer-input" type="text" placeholder="Your email">
+             <button class="footer-button2">Subscirble</button></center>
+            <center><small>* We never send you spam!</small></center> 
+            <center><i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-instagram"></i></center>
+            
+            </div>
+            <div class="col-md-4">
+              <h2 class="footer-text">Contacts</h2>
+              <p class="contact-footer">Via Stella, 22 <br>
+                Modena MO, Italy <br>
+                +390 59 223 912
+                </p>
+              <center><a class="footer-a" href="#">hello@yoursite.com</a></center>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </footer>
+    <!-- footer  -->
+
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- GOOGLE MAP  -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCRnZN87NC4eL3XZqjjOEVFr6J4YVWa-aI &callback=initialize">
+    </script>
+  <!-- GOOGLE MAP -->
+  <script src="js/script.js"></script>
+  <script src="js/map.js"></script>
+  <script>
+function toggleMenu() {
+  var menuBox = document.getElementById('navbarNav');    
+  if(menuBox.style.display == "block") { // if is menuBox displayed, hide it
+    menuBox.style.display = "none";
+  }
+  else { // if is menuBox hidden, display it
+    menuBox.style.display = "block";
+  }
+}
+  </script>
+</body>
+
+</html>
