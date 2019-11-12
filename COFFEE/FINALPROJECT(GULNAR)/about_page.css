@@ -4,6 +4,48 @@
     margin-left: auto;
     width: auto;
 }
+
+.vamtam-splash-screen{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 99999;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.vamtam-splash-screen-progress{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    background: #cb7152;
+    /* transition-property: width;
+    transition-duration: 2s; */
+    /* transition-property: width;
+    transition-duration: 0.25s ; */
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    
+}
+.vamtam-splash-screen:hover .vamtam-splash-screen-progress{
+    width: 1102px;
+    
+    
+}
+.vamtam-splash-screen-progress-wrapper{
+    position: absolute;
+    bottom: 55%;
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EDEDED;
+}
 .backfirst{
     color: rgb(41, 41, 41);
     padding-top: 157.5px;
